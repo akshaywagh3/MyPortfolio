@@ -1,0 +1,88 @@
+.full{
+    background: linear-gradient(360deg, rgba(207,230,236,1) 9%, rgba(255,251,255,1) 100%);
+    height: 100vh;
+}
+.full h1{
+    font-weight: bold;
+    text-decoration: underline;
+    margin: auto;
+    color: rgb(186, 49, 3);
+}
+.full h1,h4{
+    margin-left: 10%;
+}
+.full h4{
+    font-weight: lighter;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 3%;
+    
+}
+.myself{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: normal;
+    margin-right:10% ;
+
+}
+.myself h6{
+    font-weight:normal;
+}
+.about img{
+    object-fit: contain;
+    width:60%;
+    height: 60vh;
+    border: 10px black;
+    border-radius: 5px;
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+    
+}.myself p{
+    margin-top: 2px;
+    font-weight:lighter;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 4.5em;
+    line-height: 1.4em;
+}
+
+.myself .details{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 130px;
+    font-weight: lighter;
+    font-size: 20px;
+    max-height: 4.5em;
+    line-height: 1.4em;
+}
+.media {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+.full .hire{
+    color: white;
+    
+    background-color: white;
+    font-size: 20px;
+    border: 1px solid rgb(193, 145, 12);
+    color: rgb(223, 159, 31);
+    padding: 7px;
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+.full .hire:hover{
+    background-color: rgb(193, 145, 12);
+    color: white;
+}
+

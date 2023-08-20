@@ -1,0 +1,28 @@
+.class{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(360deg, rgba(207,230,236,1) 9%, rgba(255,251,255,1) 100%);
+
+}
+
+.projects{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.projects li{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    width: auto;
+    box-shadow: 5px 5px rgb(229, 161, 97);
+    border-radius: 10px;
+    justify-content: center;
+    padding: 8px;
+    color: white;
+    background: linear-gradient(103deg, rgba(214,154,42,1) 9%, rgba(216,79,29,1) 100%);
+    
+}

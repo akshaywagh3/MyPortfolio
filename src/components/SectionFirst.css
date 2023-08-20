@@ -1,0 +1,40 @@
+.sections{
+    height: 65vh;
+}
+
+p{
+    font-size: 50px;
+    line-height: 1px;
+    font-weight: bold;
+}
+h3{
+    font-weight: normal;
+}
+.hire{
+    color: white;
+    
+    background-color: rgb(233, 87, 87);
+    font-size: 24px;
+    border: none;
+    padding: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.hire1{
+    color: white;
+    margin-left: 20px;
+    background-color: white;
+    font-size: 24px;
+    border: 1px solid rgb(193, 145, 12);
+    color: rgb(223, 159, 31);
+    padding: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.hire:hover{
+    background-color: rgb(37, 9, 43);
+}
+.hire1:hover{
+    background-color: rgb(193, 145, 12);
+    color: white;
+}
