@@ -7,11 +7,11 @@
     text-decoration: underline;
     margin: auto;
     color: rgb(186, 49, 3);
-}
-.full h1,h4{
     margin-left: 10%;
 }
+
 .full h4{
+    margin-left: 10%;
     font-weight: lighter;
 }
 .about{

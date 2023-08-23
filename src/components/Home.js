@@ -1,11 +1,11 @@
 import React from 'react'
 import './Home.css'
-import photo from './DSC_4149-02-01-01-01.jpeg';
+import photo from './Me.jpg';
 import SectionFirst from './SectionFirst';
-import SectionSecond from './SectionSecond';
+
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
           <div className='sections'>
   
             <section className='s1'>

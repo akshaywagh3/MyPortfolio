@@ -5,7 +5,7 @@ import Projects from './components/Projects';
 import About from './components/About';
 import Route from './components/Route';
 import Services from './components/services';
-import Resume from './components/Resume';
+
 import Contact from './components/Contact';
 import Home from './components/Home';
 
@@ -30,7 +30,7 @@ const router=createBrowserRouter([
       {path:'/about',element:<About/>},
       {path:'/services',element:<Services/>},
       {path:'/contact',element:<Contact onAddmsg={sendMessage}/>},
-      {path:'/resume',element:<Resume/>},
+      
     ]
   }
 ])
