@@ -20,7 +20,7 @@ const About = () => {
           <h2>I'm Akshay Wagh</h2>
           <h3>A Web Developer based in India</h3>
 
-          <p>I love to design and Develop stylish,modern,responsive and interactive websites.<br/>My passion is to design and develop user interfaces through bold interfaces and meaningful interactions.Check out my portfolio.</p>
+          <span>I love to design and Develop stylish,modern,responsive and interactive websites.My passion is to design and develop user interfaces through bold interfaces and meaningful interactions.Check out my portfolio.</span>
           <div className='details'>
               <div className='col'>
                   <div className='media'>

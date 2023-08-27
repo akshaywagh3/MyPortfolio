@@ -13,9 +13,7 @@ const SectionFirst = () => {
                 <NavLink to='/project'><button className='hire1'>My Work</button></NavLink>
                 
         </div>
-        <section>
-
-        </section>
+        
     </div>
   )
 }

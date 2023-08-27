@@ -1,14 +1,17 @@
 import React from 'react';
-import {NavLink,Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import './Header.css';
+import About from './About';
 const Header = () => {
+  
   
   return (
     <header className='header'>
         
-        <h1>Akshay.</h1>
         
-        <nav >
+        
+        <nav className='navbar'>
+            <h1>Akshay<span style={{'color':'red'}}>.</span></h1>
             <ul className='list'>
                 <NavLink to='/' className={({isActive})=>isActive ? 'active':undefined}>HOME</NavLink>
                 <li><NavLink to='/about' className={({isActive})=>isActive ? 'active':undefined}>ABOUT</NavLink></li>

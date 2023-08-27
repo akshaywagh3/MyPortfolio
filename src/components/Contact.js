@@ -12,7 +12,7 @@ const Contact = (props) => {
     const [isSent,setIsSent]=useState(false);
 
     function submitHandler(event) {
-      setIsSent(prev=>prev=!prev);
+      setIsSent(prev=>!prev);
       event.preventDefault();
       const msg = {
         name: nameRef.current.value,

@@ -4,7 +4,7 @@
 }
 .full h1{
     font-weight: bold;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     margin: auto;
     color: rgb(186, 49, 3);
     margin-left: 10%;
@@ -29,6 +29,7 @@
     justify-content: flex-start;
     line-height: normal;
     margin-right:10% ;
+    width: 70%;
 
 }
 .myself h6{
@@ -38,20 +39,13 @@
     object-fit: contain;
     width:60%;
     height: 60vh;
-    border: 10px black;
-    border-radius: 5px;
-    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
-    
-}.myself p{
+
+}
+.myself span{
     margin-top: 2px;
     font-weight:lighter;
     font-size: 20px;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    word-wrap: break-word;
-    overflow: hidden;
-    max-height: 4.5em;
-    line-height: 1.4em;
+    
 }
 
 .myself .details{
@@ -59,6 +53,7 @@
     flex-direction: row;
     text-align: center;
     gap: 130px;
+    margin-top: 10px;
     font-weight: lighter;
     font-size: 20px;
     max-height: 4.5em;
@@ -86,3 +81,40 @@
     color: white;
 }
 
+@media screen and (max-width: 768px) {
+    .about {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      text-align: center;
+    }
+    .about img{
+        width: 100vw;
+    }
+    .full{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+    .myself .details{
+        margin-top: 10px;
+        font-size: 18px;
+        max-height: 4.5em;
+        line-height: 1.4em;
+        gap: 40px;
+        justify-content: center;
+    }
+    .myself{
+        width: auto;
+    }
+    .myself span{
+        display: flex;
+        justify-content: flex-start;
+        
+        font-size: 18px;
+        line-break: auto;
+        
+    }
+    
+  }

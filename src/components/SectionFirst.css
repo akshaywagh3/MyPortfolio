@@ -39,3 +39,10 @@ h3{
     background-color: rgb(193, 145, 12);
     color: white;
 }
+@media screen and (max-width: 768px) {
+    .first {
+      margin-left: 10%;
+    }
+    
+
+  }

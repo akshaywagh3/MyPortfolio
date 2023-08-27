@@ -6,23 +6,23 @@ const Projects = () => {
     {
       id:1,
       name:'QuoteGenerator',
-      details:'created Quote generator website.',
+      details:'Created Quote generator website.Created array of obects containing quotes and using mapping and javascript displayed them.',
       tech:'HTML,CSS,Javascript',
       link:'https://github.com/akshaywagh3/QuoteGenerator',
       level:'beginner'
     },
     {
       id:2,
-      name:'userAdder',
-      details:'created website for user addition',
-      tech:'ReactJs',
+      name:'UserAdder',
+      details:'Created website for user addition.Used react and practiced working of some hooks.',
+      tech:'html,css,ReactJs',
       link:'https://github.com/akshaywagh3/userAdder',
       level:'beginner'
     },
     {
       id:3,
       name:'Stopwatch',
-      details:'created Stopwatch features',
+      details:'Created Stopwatch using html,css and javascript added buttons for stop start and reset features. ',
       link:'https://github.com/akshaywagh3/stopwatch',
       tech:'HTML,CSS,Javascript',
       level:'medium'
@@ -30,23 +30,24 @@ const Projects = () => {
     {
       id:4,
       name:'Investment Calculator',
-      details:'created investment Calculator with React Js',
-      tech:'Reactjs',
+      details:'Created investment Calculator with React Js created mathematical formulas to finding the correct calculations.',
+      tech:'html,css,Reactjs',
       link:'https://github.com/akshaywagh3/investmentCalculator',
       level:'medium'
     },
   ]
+  
   return (
     <>
       <div className='class'>
+          <h1>My Projects</h1>
           <ul className='projects'> 
             {projectDetail.map((project)=>(
               <li key={project.id}>
-                Project Name: {project.name}<br/>
-                Project Details: {project.details}<br/>
-                Tech Used: {project.tech}<br/>
-                Difficulty: {project.level}<br/>
-                <a href={project.link}>Github Link</a>
+                <h2>{project.name}</h2>
+                <h4>{project.details}</h4>
+                <h4>Tech Used: {project.tech}</h4>
+                <button><a href={project.link}>Github Link</a></button>
               </li>
             ))}
           </ul>
