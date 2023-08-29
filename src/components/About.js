@@ -1,5 +1,14 @@
 import React from 'react'
-import Header from './Header';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
+import { faSquareJs } from "@fortawesome/free-brands-svg-icons";
+import { faCss3Alt } from "@fortawesome/free-brands-svg-icons";
+import { faReact } from "@fortawesome/free-brands-svg-icons";
+import { faPython } from "@fortawesome/free-brands-svg-icons";
+import { faJava } from "@fortawesome/free-brands-svg-icons";
+import { SiMysql } from 'react-icons/si';
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 import './About.css'
 import myImage from './DSC_4149-02-01-01-01.jpeg';
 import Akshay from './AkshayWagh_.pdf';
@@ -54,6 +63,44 @@ const About = () => {
           </div>
           <a href={Akshay} download="Akshay_Wagh_Resume" target='_blank'>
                   <button className='hire'>Download Resume</button></a>
+        </div>
+      </div>
+      
+      <div className='skills'>
+        <h1>My Skills</h1>
+        <div className='skill-list'>
+          <section>
+            <h2>HTML</h2>
+            <FontAwesomeIcon icon={faHtml5} size='2xl'/>
+          </section>
+          <section>
+            <h2>CSS</h2>
+            <FontAwesomeIcon icon={faCss3Alt} size='2xl' />
+          </section>
+          <section>
+            <h2>Javascript</h2>
+            <FontAwesomeIcon icon={faSquareJs} size='2xl'/>          
+          </section>
+          <section>
+            <h2>ReactJs</h2>
+            <FontAwesomeIcon icon={faReact} size='2xl'/>
+          </section>
+          <section>
+            <h2>Python</h2>
+            <FontAwesomeIcon icon={faPython} size='2xl'/>
+          </section>
+          <section>
+            <h2>Java</h2>
+            <FontAwesomeIcon icon={faJava} size='2xl' />
+            </section>
+          <section>
+            <h2>Github</h2>
+            <FontAwesomeIcon icon={faGithub} size='2xl'/>
+          </section>
+          <section>
+            <h2>Mysql</h2>
+            <SiMysql style={{width:'35px',height:'45px'}}/>
+          </section>
         </div>
       </div>
       

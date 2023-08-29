@@ -1,8 +1,8 @@
 .header{
     
     border-bottom:1px  rgb(53, 51, 51);
-    
-    background: linear-gradient(180deg, rgba(207,230,236,1) 9%, rgba(255,251,255,1) 100%);
+    background-color: rgb(16, 33, 65);
+    /* background: linear-gradient(180deg, rgb(174, 99, 221) 9%, rgb(168, 77, 253) 100%); */
     
     
 }
@@ -10,6 +10,7 @@
 .navbar h1{
     margin-left: 60px;
     font-weight: bold;
+    color: white;
 }
 
 .navbar{
@@ -31,12 +32,12 @@
 }
 .list a {
     text-decoration: none;
-    color: var(--color-primary-400);
+    color: white;
 }
   
 .list a:hover,
 .list a.active {
-    color: var(--color-primary-800);
+    color: rgb(206, 23, 99);
     text-decoration: underline;
     font-weight: bold;
   }

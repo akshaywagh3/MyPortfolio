@@ -91,7 +91,7 @@
     .dd{
         height: auto;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     

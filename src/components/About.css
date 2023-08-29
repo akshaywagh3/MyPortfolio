@@ -1,24 +1,26 @@
 .full{
-    background: linear-gradient(360deg, rgba(207,230,236,1) 9%, rgba(255,251,255,1) 100%);
-    height: 100vh;
+    /* background: linear-gradient(360deg, rgba(207,230,236,1) 9%, rgba(255,251,255,1) 100%); */
+    height: 100%;
+    background-color: rgb(148, 108, 186);
 }
 .full h1{
     font-weight: bold;
-    /* text-decoration: underline; */
     margin: auto;
-    color: rgb(186, 49, 3);
+    color: rgb(76, 243, 231);
     margin-left: 10%;
 }
 
 .full h4{
     margin-left: 10%;
-    font-weight: lighter;
+    font-weight: normal;
+    color: white;
 }
 .about{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 10px;
+    color: rgb(4, 13, 45);
     margin-top: 3%;
     
 }
@@ -32,9 +34,7 @@
     width: 70%;
 
 }
-.myself h6{
-    font-weight:normal;
-}
+
 .about img{
     object-fit: contain;
     width:60%;
@@ -81,6 +81,63 @@
     color: white;
 }
 
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    position: relative;
+    
+}
+.skills::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(148, 108, 186);
+    /* border-top-left-radius: 25%;
+    border-top-right-radius:25%; */
+    transform-origin: bottom;
+}
+.skill-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    z-index: 1;
+}
+.skill-list section{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 20px 80px;
+    width: auto;
+    height: auto;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(3, 27, 48);
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.skill-list section:hover{
+    background-color: burlywood;
+    color: black;
+}
+
+.skills h1{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    z-index: 1;
+    
+}
+
 @media screen and (max-width: 768px) {
     .about {
       display: flex;
@@ -115,6 +172,26 @@
         font-size: 18px;
         line-break: auto;
         
+    }
+    .skill-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        align-items: center;
+    }
+    .skill-list section{
+        gap: 5px;
+    }
+    .skills::before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(148, 108, 186);
+        border-radius: px;
+        transform-origin: bottom;
     }
     
   }

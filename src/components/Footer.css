@@ -18,6 +18,8 @@
 }
 .address{
     gap: 20px;
+    height: 200px;
+    
 }
 .address h2{
     font-size: 12px;
@@ -42,6 +44,7 @@
 .social{
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
     
 }
 .social span{
@@ -49,6 +52,15 @@
     font-weight:bold;
     justify-content: flex-start;
 }
+.social .icons{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+    
+}
+
 
 
 @media screen and (max-width:768px){
@@ -71,5 +83,6 @@
         justify-content: flex-start;
         
     }
+   
 
 }
