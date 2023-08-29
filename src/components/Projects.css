@@ -53,7 +53,8 @@
 }
 .projects button:hover{
     text-decoration: none;
-    color: white;
+    color: rgb(67, 45, 45);
+    font-weight: bold;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }

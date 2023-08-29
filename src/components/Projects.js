@@ -1,5 +1,6 @@
 import React from 'react'
 import './Projects.css';
+import { NavLink } from 'react-router-dom';
 
 const Projects = () => {
   const projectDetail=[
@@ -47,7 +48,7 @@ const Projects = () => {
                 <h2>{project.name}</h2>
                 <h4>{project.details}</h4>
                 <h4>Tech Used: {project.tech}</h4>
-                <button><a href={project.link}>Github Link</a></button>
+                <NavLink to={project.link}><button>Github Link</button></NavLink>
               </li>
             ))}
           </ul>

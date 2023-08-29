@@ -1,6 +1,8 @@
 .sections{
-    height: 65vh;
-    
+    height: 100%;
+}
+.first{
+    padding-left: 20px;
 }
 
 p{
