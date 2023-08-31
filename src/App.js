@@ -19,6 +19,9 @@ async function sendMessage (userMsg){
     }
   });
 }
+function Invoice() {
+  return <div>Happy </div>;
+}
 const router=createBrowserRouter([
   {
     path:'/',
@@ -27,8 +30,7 @@ const router=createBrowserRouter([
       
       {index:true,element:<Home/>},
       {path:'/project',element:<Projects/>},
-      {path:'/about',element:<About/>},
-      {path:'/services',element:<Services/>},
+      {path:'/about',element:<About/>,errorElement:<Invoice/>},
       {path:'/contact',element:<Contact onAddmsg={sendMessage}/>},
       
     ]

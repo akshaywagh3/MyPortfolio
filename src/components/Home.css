@@ -33,22 +33,8 @@
     padding: 50px;
     position: relative;
     height: 100%;
-    /* overflow: hidden; */
+    
 }
-/* .s2::before{
-    content: '';
-    position: absolute;
-    width:100vh;
-    height: 100vh;
-    background-color: blue;
-    border-radius: 60%;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-    left: 0%;
-    top: 0;
-    transform-origin: bottom;
-    transform: translateY(-150px);
-} */
 
 .s2 img{
     object-fit: contain;

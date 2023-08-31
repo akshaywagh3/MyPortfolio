@@ -7,8 +7,7 @@ import { faReact } from "@fortawesome/free-brands-svg-icons";
 import { faPython } from "@fortawesome/free-brands-svg-icons";
 import { faJava } from "@fortawesome/free-brands-svg-icons";
 import { SiMysql } from 'react-icons/si';
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-
+import { faGithub } from "@fortawesome/free-brands-svg-icons";7
 import './About.css'
 import myImage from './DSC_4149-02-01-01-01.jpeg';
 import Akshay from './AkshayWagh_.pdf';
