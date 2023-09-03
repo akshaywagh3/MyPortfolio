@@ -98,6 +98,7 @@
     }
     .contact{
         margin-bottom: 10px;
+        width: 70%;
     }
     .extra{
         margin: 20px;
@@ -109,6 +110,6 @@
         align-items: center;
     }
     .extra section{
-        height: 150px;
+        height: 130px;
     }
 }

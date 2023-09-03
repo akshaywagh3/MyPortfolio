@@ -59,21 +59,7 @@
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 
-@media screen and (max-width: 768px) {
-    .class{
-        width: 100%;
-    }
-    .projects {
-      display: flex;
-      flex-direction: column;
-    }
-    .projects li{
-        width:350px;
-        
-    }
-    
 
-  }
   @media screen and (max-width: 981px) {
     .class{
         width: 100%;
@@ -85,6 +71,23 @@
     .projects li{
         width:350px;
         
+        
+    }
+    
+
+  }
+
+  @media screen and (max-width: 768px) {
+    .class{
+        width: 100%;
+    }
+    .projects {
+      display: flex;
+      flex-direction: column;
+    }
+    .projects li{
+        width:300px;
+        margin: 20px;
     }
     
 
