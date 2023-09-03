@@ -10,7 +10,7 @@ import { SiMysql } from 'react-icons/si';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import './About.css'
 import myImage from './DSC_4149-02-01-01-01.jpeg';
-import Akshay from './AkshayWagh_.pdf';
+import Akshay from './AkshayWagh1.pdf';
 const About = () => {
 
  
