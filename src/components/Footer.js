@@ -47,10 +47,10 @@ const Footer = () => {
       <div className='social'>
             <span>My Social media handles</span>
             <div className='icons'>
-                <NavLink to='https://www.linkedin.com/in/akshay-wagh-011412231/'><FontAwesomeIcon icon={faLinkedin} size='xl'style={{color:'white'  }} /></NavLink>
-                <NavLink to='https://github.com/akshaywagh3'><FontAwesomeIcon icon={faGithub} size='xl' style={{color:'white'  }} /></NavLink>
-                <NavLink to='https://www.instagram.com/akshay.wagh3'><FontAwesomeIcon icon={faInstagram} size='xl' style={{color:'white'  }} /></NavLink>
-                <NavLink to='https://twitter.com/akshay_w3'><FontAwesomeIcon icon={faTwitter} size='xl' style={{color:'white'  }} /></NavLink>
+                <NavLink to='https://www.linkedin.com/in/akshay-wagh-011412231/'><FontAwesomeIcon icon={faLinkedin} size='2xl'style={{color:'white'  }} /></NavLink>
+                <NavLink to='https://github.com/akshaywagh3'><FontAwesomeIcon icon={faGithub} size='2xl' style={{color:'white'  }} /></NavLink>
+                <NavLink to='https://www.instagram.com/akshay.wagh3'><FontAwesomeIcon icon={faInstagram} size='2xl' style={{color:'white'  }} /></NavLink>
+                <NavLink to='https://twitter.com/akshay_w3'><FontAwesomeIcon icon={faTwitter} size='2xl' style={{color:'white'  }} /></NavLink>
                 
                 
             </div>

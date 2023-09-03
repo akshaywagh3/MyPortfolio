@@ -1,6 +1,7 @@
 .full{
     /* background: linear-gradient(360deg, rgba(207,230,236,1) 9%, rgba(255,251,255,1) 100%); */
     height: 100%;
+    padding-top: 20px;
     /* background-color: rgb(195, 143, 243); */
 }
 .full h1{
@@ -19,7 +20,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 10px;
+    /* gap: 10px; */
+    padding-top: 20px;
+    height: 100vh;
     color: rgb(4, 13, 45);
     margin-top: 3%;
     position: relative;
@@ -54,8 +57,8 @@
     display: flex;
     flex-direction: row;
     text-align: center;
-    gap: 130px;
-    margin-top: 10px;
+    gap: 120px;
+    padding-top: 20px;
     font-weight: lighter;
     font-size: 20px;
     max-height: 4.5em;
@@ -102,9 +105,9 @@
     width: 100%;
     height: 100%;
     background-color: rgb(222, 213, 230);
-    border-top-left-radius: 25%;
-    border-top-right-radius:25%;
-    transform-origin: bottom;
+    border-top-left-radius: 20%;
+    border-top-right-radius:20%;
+    transform-origin:center;
 }
 .skill-list{
     display: grid;
@@ -144,6 +147,7 @@
 @media screen and (max-width: 768px) {
     .about {
       display: flex;
+      height: auto;
       flex-direction: column;
       margin: auto;
       text-align: center;
@@ -159,7 +163,7 @@
     }
     .myself .details{
         margin-top: 10px;
-        font-size: 18px;
+        font-size: 17px;
         max-height: 4.5em;
         line-height: 1.4em;
         gap: 40px;
@@ -172,6 +176,63 @@
         display: flex;
         justify-content: flex-start;
         
+        font-size: 18px;
+        line-break: auto;
+        
+    }
+    .skill-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        align-items: center;
+    }
+    .skill-list section{
+        gap: 5px;
+    }
+    .skills::before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(148, 108, 186);
+        border-radius: 0px;
+        transform-origin: bottom;
+    }
+    
+  }
+  @media screen and (max-width: 981px) {
+    .about {
+      display: flex;
+      height: auto;
+      flex-direction: column;
+      margin: auto;
+      text-align: center;
+    }
+    .about img{
+        width: 100vw;
+    }
+    .full{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+    .myself .details{
+        margin-top: 10px;
+        font-size: 17px;
+        max-height: 4.5em;
+        line-height: 1.4em;
+        gap: 40px;
+        justify-content: center;
+    }
+    .myself{
+        width: auto;
+    }
+    .myself span{
+        display: flex;
+        justify-content: flex-start;
         font-size: 18px;
         line-break: auto;
         

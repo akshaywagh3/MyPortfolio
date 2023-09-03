@@ -7,7 +7,7 @@ import { faReact } from "@fortawesome/free-brands-svg-icons";
 import { faPython } from "@fortawesome/free-brands-svg-icons";
 import { faJava } from "@fortawesome/free-brands-svg-icons";
 import { SiMysql } from 'react-icons/si';
-import { faGithub } from "@fortawesome/free-brands-svg-icons";7
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import './About.css'
 import myImage from './DSC_4149-02-01-01-01.jpeg';
 import Akshay from './AkshayWagh_.pdf';
@@ -60,7 +60,7 @@ const About = () => {
                 </div>
               </div>
           </div>
-          <a href={Akshay} download="Akshay_Wagh_Resume" target='_blank'>
+          <a href={Akshay} download="Akshay_Wagh_Resume"> 
                   <button className='hire'>Download Resume</button></a>
         </div>
       </div>
@@ -99,6 +99,10 @@ const About = () => {
           <section>
             <h2>Mysql</h2>
             <SiMysql style={{width:'35px',height:'45px'}}/>
+          </section>
+          <section>
+            <h2>C++</h2>
+            
           </section>
         </div>
       </div>

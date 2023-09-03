@@ -4,7 +4,6 @@ import Header from './components/Header';
 import Projects from './components/Projects';
 import About from './components/About';
 import Route from './components/Route';
-import Services from './components/services';
 
 import Contact from './components/Contact';
 import Home from './components/Home';
