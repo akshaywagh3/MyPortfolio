@@ -33,7 +33,7 @@ const About = () => {
               <div className='col'>
                   <div className='media'>
                       <label>Birthday :</label>
-                      <label>6 June 2001</label>
+                      <label>06/06/2001</label>
                   </div>
                   <div className='media'>
                       <label>Age :</label>
