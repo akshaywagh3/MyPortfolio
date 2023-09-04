@@ -36,6 +36,22 @@ const Projects = () => {
       link:'https://github.com/akshaywagh3/investmentCalculator',
       level:'medium'
     },
+    {
+      id:5,
+      name:'Simple Calculator',
+      details:'Created investment Calculator with React Js created mathematical formulas to finding the correct calculations.',
+      tech:'html,css,javascript',
+      link:'https://github.com/akshaywagh3/LGM-VIP-Web-Task-2',
+      level:'medium'
+    },
+    {
+      id:6,
+      name:'To-Do list',
+      details:'Created simple to-do list with Add,Delete,Update features using html,css,javascript .',
+      tech:'html,css,javascript',
+      link:'https://github.com/akshaywagh3/LGM-VIP-Web-Task1',
+      level:'medium'
+    },
   ]
   
   return (
