@@ -136,7 +136,7 @@
 }
 
 .skills h1{
-    color: black;
+    color: rgb(116, 55, 249);
     font-weight: bold;
     text-align: center;
     align-items: center;
@@ -191,6 +191,7 @@
         
         
     }
+    
     .skills::before{
         content: '';
         position: absolute;
