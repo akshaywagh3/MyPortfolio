@@ -58,12 +58,14 @@
 	.header .nav-btn {
 		overflow:visible;
 		opacity: 1;
+		color: white;
 	}
 
 	.header nav {
 		position: fixed;
 		top: 0;
 		left: 0;
+		opacity: 0.7;
 		height: auto;
 		width: 100%;
 		display: flex;

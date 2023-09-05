@@ -26,7 +26,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faLocationDot} size='xl'style={{margin:'20px 20px'  }}/>
           <span>
           
-          <h3>Nandanvan Scociety,Near Akurdi Railway Station,Akurdi,Pune</h3>
+          <h3>Near Akurdi Railway Station,Akurdi,Pune</h3>
           </span>
         </section>
         <section>

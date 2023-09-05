@@ -48,7 +48,7 @@ const Contact = (props) => {
           <FontAwesomeIcon icon={faLocationDot} size='2xl'style={{margin:'20px 20px'  }}/>
           <span>
           <h2>My Address</h2>
-          <h3>Nandanvan Scociety,Near Akurdi Railway Station,Akurdi,Pune</h3>
+          <h3>Near Akurdi Railway Station,Akurdi,Pune</h3>
           </span>
         </section>
         <section>

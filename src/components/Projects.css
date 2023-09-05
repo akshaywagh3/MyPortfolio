@@ -82,11 +82,12 @@
         width: 100%;
     }
     .projects {
-      display: flex;
-      flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .projects li{
-        width:300px;
+        width:250px;
         margin: 20px;
     }
     

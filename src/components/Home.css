@@ -37,10 +37,27 @@
 
 .s2 img{
     object-fit: contain;
-    width: 450px;
+    width: 460px;
     height: 80vh;
     z-index: -1;
     
+}
+
+@media screen and (max-width: 981px) {
+  .sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    gap: 10px;
+  }
+  .s2 img{
+      width: 450px;
+      align-items: center;
+      
+  }
+
 }
 
 
@@ -53,21 +70,12 @@
       margin-top: 10px;
       gap: 10px;
     }
+    .s2 img{
+      width:100%;
+
+    }
+    .s1 p {
+      font-size: 28px;
+    }
   }
   
-@media screen and (max-width: 981px) {
-    .sections {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding-top: 10px;
-      gap: 10px;
-    }
-    .s2 img{
-        width: 450px;
-        align-items: center;
-        
-    }
-
-  }
