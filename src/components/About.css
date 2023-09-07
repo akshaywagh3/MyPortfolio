@@ -69,10 +69,12 @@
     flex-direction: row;
     gap: 7px;
 }
-.full .hire {
+
+.full button {
     color: white;
     background-color: white;
     font-size: 20px;
+    width: auto;
     border: 1px solid rgb(193, 145, 12);
     color: rgb(223, 159, 31);
     padding: 7px;
@@ -80,7 +82,7 @@
     cursor: pointer;
 
 }
-.full .hire:hover{
+.full button:hover{
     background-color: rgb(193, 145, 12);
     color: white;
 }
