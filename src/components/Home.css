@@ -2,6 +2,7 @@
     height: auto;
     width: 100%;
     font-family: 'Inter', sans-serif;
+    background-color: #FFF5E0;
     /* background-color: rgb(153, 186, 249); */
 }
 .sections{
@@ -39,7 +40,6 @@
     object-fit: contain;
     width: 460px;
     height: 80vh;
-    z-index: -1;
     
 }
 
@@ -67,8 +67,8 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-top: 10px;
-      gap: 10px;
+      padding-top: 30px;
+      
     }
     .s2 img{
       width:100%;

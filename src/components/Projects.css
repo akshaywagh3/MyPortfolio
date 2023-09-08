@@ -2,13 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #F1F6F9;
     height: 100%;
-    background: linear-gradient(360deg, rgba(207,230,236,1) 9%, rgba(255,251,255,1) 100%);
+    /* background: linear-gradient(360deg, rgba(207,230,236,1) 9%, rgba(255,251,255,1) 100%); */
     
 }
 
 .class h1{
-    color: rgb(96, 93, 93);
+    color: rgb(48, 26, 26);
 }
 .projects h2{
     justify-content: flex-start;
@@ -19,6 +20,10 @@
     justify-content: center;
     align-items: center;
 }
+.projects img{
+    max-height: 250px;
+    object-fit: cover;
+}
 .projects li{
     display: flex;
     flex-direction: column;
@@ -26,7 +31,7 @@
     margin: 30px;
     list-style: none;
     width: 400px;
-    height: 280px;
+    height: 500px;
     line-height:1rem;
     border-radius: 10px;
     padding: 10px;
@@ -89,6 +94,7 @@
     .projects li{
         width:250px;
         margin: 20px;
+        height: auto;
     }
     
 
