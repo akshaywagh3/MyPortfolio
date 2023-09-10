@@ -31,7 +31,7 @@
     margin: 30px;
     list-style: none;
     width: 400px;
-    height: 500px;
+    height: 550px;
     line-height:1rem;
     border-radius: 10px;
     padding: 10px;
@@ -46,12 +46,17 @@
 .projects h2{
     color: rgb(30, 44, 44);
 }
+.projects .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .projects button{
     padding: 4px;
     font-size: 22px;
     margin-top: 10px;
     text-decoration: none;
-    width: 50%;
+    width: auto;
     border-radius: 4px;
     background-color: rgb(80, 174, 97);
     border: none;
